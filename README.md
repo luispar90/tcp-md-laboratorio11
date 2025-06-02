@@ -7,7 +7,7 @@ Para más detalle revisar el siguiente **[repositorio](https://github.com/AzShet
 ## Autor
 - **Ruelas Flores, César Diego**  
 - Big Data y Ciencia de Datos – TECSUP
-
+---
 ## Estructura del proyecto
 
 - `LAB11-RUELAS.ipynb`: Notebook principal con todo el flujo de trabajo.
@@ -15,6 +15,39 @@ Para más detalle revisar el siguiente **[repositorio](https://github.com/AzShet
 - `test_utils.py`: Archivo de pruebas unitarias con `pytest` para validar cada componente.
 - `requirements.txt`: Dependencias necesarias para ejecutar el proyecto.
 
+---
+
+## Metodología y Flujo de Trabajo
+
+```
+            ┌──────────┐
+            │  Datos   │
+            └────┬─────┘
+                 │
+  ┌──────────────┴──────────────┐
+  │  Exploración y Descripción   │
+  └──────────┬──────────┬───────┘
+             │          │
+ Outliers Univ.  Outliers Multiv.
+             │          │
+      ┌──────┴───────┐  │
+      │  Escalamiento│  │
+      └──────┬───────┘  │
+             │          │
+      ┌──────┴──────────┴─────────┐
+      │ Algoritmo Genético (DEAP) │
+      └──────┬──────────┬─────────┘
+             │          │
+Conjunto-óptimo   Conjunto completo
+             │          │
+     Regresión lineal   │
+             │          │
+     Métricas y Comparación
+             │
+       Visualizaciones
+```
+
+---
 ## Funcionalidades principales
 
 - Carga y limpieza de datos desde GitHub.
