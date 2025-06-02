@@ -2,6 +2,8 @@
 
 Este proyecto implementa un análisis completo de datos publicitarios utilizando la librería **Polars** en Python, integrando técnicas de **preprocesamiento**, detección y tratamiento de **outliers**, **escalamiento**, selección de variables mediante **algoritmos genéticos (DEAP)**, y entrenamiento de un modelo de **regresión lineal** para predecir ventas.
 
+Para más detalle revisar el siguiente **[repositorio](https://github.com/AzShet/Data_Mining-LAB11/tree/develop).**
+
 ## Autor
 - **Ruelas Flores, César Diego**  
 - Big Data y Ciencia de Datos – TECSUP
